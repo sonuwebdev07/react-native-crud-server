@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "build": "npm install bcrypt --build-from-source"
+    "build": "npm install bcrypt --build-from-source --force"
   },
   "author": "",
   "license": "ISC",
