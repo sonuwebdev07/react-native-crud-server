@@ -25,7 +25,6 @@ app.use('/api/v1/post', require('./routes/postRoutes'));
 
 //Home
 app.get('/', (req, res) => {
-    if(req.url === '/favicon.ico') return res.end();
     res.status(200).send({
         success: true,
         message: "Node Server Running"
