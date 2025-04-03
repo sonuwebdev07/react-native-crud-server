@@ -6,9 +6,9 @@
     "start": "node server.js",
     "server": "nodemon server.js",
   },
-  "author": "",
+  "author": "sonugautam07",
   "license": "ISC",
-  "description": "",
+  "description": "its a server to get name email pass",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "colors": "^1.4.0",
