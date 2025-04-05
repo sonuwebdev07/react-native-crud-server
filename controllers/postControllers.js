@@ -39,7 +39,7 @@ const createPostController = async (req, res) => {
 const getAllPostController = async (req, res) => {
     try {
 
-        const posts = await postModel.find().populate('postedBy', '_id name').sort({ createdAt: -1 })
+        const posts = await postModel.find({}).populate('postedBy', '_id name').sort({ createdAt: -1 })
         res.status(201).send({
             success: true,
             message: "Post Fetch Successfully",
